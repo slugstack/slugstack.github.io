@@ -1,8 +1,0 @@
----
-baseURL: "https://slugstack.github.io/"
-enableGitInfo: true
-enableRobotsTXT: true
-languageCode: "en-us"
-publishDir: "docs"
-theme: "gohugo-theme-ananke"
-title: "slugstack"

@@ -1,9 +1,0 @@
-apiVersion: vendir.k14s.io/v1alpha1
-directories:
-- contents:
-  - git:
-      commitTitle: Update archetypes (#305)...
-      sha: d7b7d138c86bb3586feb76a11ffcd627d1439d9c
-    path: .
-  path: themes/gohugo-theme-ananke
-kind: LockConfig

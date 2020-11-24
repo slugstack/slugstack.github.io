@@ -1,3 +1,0 @@
-Contact: mailto:aegershman@gmail.com
-Contact: https://github.com/aegershman
-Preferred-Languages: en
