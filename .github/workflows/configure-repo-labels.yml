@@ -1,5 +1,5 @@
 ---
-name: "configure-repo-labels"
+name: configure-repo-labels
 
 on:
   push:
@@ -16,5 +16,5 @@ jobs:
       - name: run-labeler
         if: success()
         uses: crazy-max/ghaction-github-labeler@v3.1.0
-        env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
